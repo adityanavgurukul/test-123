@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 });
 
 app.get('/aditya', (req, res) => {
-  res.send("Aditya is working on this branch");
+  res.send("Aditya created this route");
 })
 
 app.listen(4000, () => {
